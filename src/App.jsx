@@ -1,12 +1,12 @@
 import { Canvas } from "@react-three/fiber";
 import "./App.css";
-import WireFrame from "./WireFrame";
+import MyCylinder from "./MyCylinder";
 
 function App() {
   return (
     <>
       <Canvas>
-        <WireFrame />
+        <MyCylinder />
       </Canvas>
     </>
   );
