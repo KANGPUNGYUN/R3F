@@ -1,12 +1,12 @@
 import { Canvas } from "@react-three/fiber";
 import "./App.css";
-import MyElement3D from "./MyElement3D";
+import Drei from "./Drei";
 
 function App() {
   return (
     <>
       <Canvas>
-        <MyElement3D></MyElement3D>
+        <Drei />
       </Canvas>
     </>
   );
