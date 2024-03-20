@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import "./App.css";
-import Camera from "./Camera";
+import Shadow from "./Shadow";
 
 function App() {
   return (
@@ -22,15 +22,14 @@ function App() {
         //   zoom: 100,
         //   position: [7, 7, 0],
         // }}
-
+        shadows
         camera={{
-          fov: 130,
-          near: 0.1,
-          far: 20,
+          near: 1,
+          far: 100,
           position: [7, 7, 0],
         }}
       >
-        <Camera />
+        <Shadow />
       </Canvas>
     </>
   );
