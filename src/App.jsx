@@ -1,12 +1,17 @@
 import { Canvas } from "@react-three/fiber";
 import "./App.css";
-import CustomMaterial from "./CustomMaterial";
+import Light from "./Light";
 
 function App() {
   return (
     <>
-      <Canvas>
-        <CustomMaterial />
+      <Canvas
+        camera={{
+          fov: 75,
+          position: [7, 7, 0],
+        }}
+      >
+        <Light />
       </Canvas>
     </>
   );
