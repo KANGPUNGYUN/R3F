@@ -1,12 +1,12 @@
 import { Canvas } from "@react-three/fiber";
 import "./App.css";
-import MyCylinder from "./MyCylinder";
+import MatcapMaterial from "./MatcapMaterial";
 
 function App() {
   return (
     <>
       <Canvas>
-        <MyCylinder />
+        <MatcapMaterial />
       </Canvas>
     </>
   );
