@@ -1,12 +1,12 @@
 import { Canvas } from "@react-three/fiber";
 import "./App.css";
-import MatcapMaterial from "./MatcapMaterial";
+import CustomMaterial from "./CustomMaterial";
 
 function App() {
   return (
     <>
       <Canvas>
-        <MatcapMaterial />
+        <CustomMaterial />
       </Canvas>
     </>
   );
